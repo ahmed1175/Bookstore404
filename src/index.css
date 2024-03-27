@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes animation{
+  0%   {scale: 0;}
+  
+  50% {scale: 1.2;}
+  100% {scale: 1;}
+}
+
+div.backdrop{
+  backdrop-filter: blur(4px);
+}
+div.showmodule{
+  animation: animation 0.5s 1 ;
+}
